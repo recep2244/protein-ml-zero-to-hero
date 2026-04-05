@@ -4,7 +4,7 @@ This file helps Claude Code, GitHub Copilot, and Codex understand the curriculum
 
 ## Project Overview
 
-**Goal:** Master bioinformatics + structural biology ML for Isomorphic Labs / DeepMind-level roles
+**Goal:** Master bioinformatics + structural biology ML for computational biology ML teams / structural biology research labs-level roles
 **Structure:** 43 Jupyter notebooks across 18 modules
 **Target:** HackerRank ML assessments + technical interviews
 **New to the field?** See `ZERO_TO_HERO.md` for the complete free learning path from absolute beginner to research level (6–18 months)
@@ -79,7 +79,7 @@ Code cells include `# CLAUDE HINT:` comments that trigger useful completions. Lo
 01/01 → 01/02 → 01/03 → 01/04 → 01/05 → 01/06 → 02/01
 ```
 
-### Path C: Structural ML (for Isomorphic Labs) (4 weeks)
+### Path C: Structural ML (for computational biology ML teams) (4 weeks)
 ```
 03/01 → 05/01 → 06/01 → 07/01 → 07/02 → 07/03 → 07/04 → 10/01
 ```
@@ -158,7 +158,7 @@ claude "create a new practice problem similar to the Smith-Waterman implementati
 claude "review my implementation of Needleman-Wunsch — here's my code: [paste code]"
 
 # Interview simulation
-claude "simulate a 30-minute technical interview for an ML engineer role at Isomorphic Labs focused on protein structure prediction"
+claude "simulate a 30-minute technical interview for an ML engineer role at computational biology ML teams focused on protein structure prediction"
 ```
 
 ## Dependencies

@@ -94,9 +94,9 @@ When scientists measure gene expression, they are measuring which proteins a cel
 
 ### What is AlphaFold?
 
-For 50 years, predicting the 3D shape of a protein from its amino acid sequence was one of the hardest unsolved problems in science. In 2020, a DeepMind AI system called **AlphaFold** solved it with stunning accuracy. It uses deep learning — trained on all the protein structures ever measured by scientists — to predict the shape of any protein you give it, in minutes.
+For 50 years, predicting the 3D shape of a protein from its amino acid sequence was one of the hardest unsolved problems in science. In 2020, a structural biology research labs AI system called **AlphaFold** solved it with stunning accuracy. It uses deep learning — trained on all the protein structures ever measured by scientists — to predict the shape of any protein you give it, in minutes.
 
-AlphaFold 3 (the version this curriculum focuses on) goes further: it predicts not just protein shapes but how proteins interact with DNA, RNA, and small drug molecules. This is the core technology behind the work done at Isomorphic Labs, the company DeepMind spun out specifically to use AlphaFold for drug discovery.
+AlphaFold 3 (the version this curriculum focuses on) goes further: it predicts not just protein shapes but how proteins interact with DNA, RNA, and small drug molecules. This is the core technology behind the work done at computational biology ML teams, the company structural biology research labs spun out specifically to use AlphaFold for drug discovery.
 
 ### Why does this matter for medicine?
 
@@ -483,6 +483,6 @@ These are not vague promises. These are specific, concrete things you will be ab
 - "I can explain why protein structure prediction matters for drug discovery, and how AlphaFold3's ability to model protein-ligand interactions changes the drug design workflow."
 - "I can describe the differences between AlphaFold2, AlphaFold3, OpenFold, ESMFold, and Boltz-2, and explain the architectural choices that distinguish them."
 
-**You are building toward a role at a company like Isomorphic Labs, DeepMind, or any structural biology ML lab.** The people who get those roles are not necessarily the smartest people in the room. They are the ones who showed up consistently, built things from scratch, and can explain what they built to someone else. This roadmap gives you exactly that.
+**You are building toward a role at a company like computational biology ML teams, structural biology research labs, or any structural biology ML lab.** The people who get those roles are not necessarily the smartest people in the room. They are the ones who showed up consistently, built things from scratch, and can explain what they built to someone else. This roadmap gives you exactly that.
 
 Start today. Open notebook 00/00. Run Cell 1.

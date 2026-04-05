@@ -792,7 +792,7 @@ None beyond arithmetic.
 - **[Invariant Point Attention](https://arxiv.org/abs/2102.13419)** (Jumper et al.) — IPA module explanation
 
 ### Watch — Video Lectures
-- **[DeepMind AlphaFold Lecture](https://www.youtube.com/watch?v=gg7WjuFs8F4)** — Jumper explains AF2 architecture
+- **[structural biology research labs AlphaFold Lecture](https://www.youtube.com/watch?v=gg7WjuFs8F4)** — Jumper explains AF2 architecture
 - **[Yannic Kilcher AlphaFold2 Paper Explained](https://www.youtube.com/watch?v=nGVFbPKB3iE)** — 1.5h comprehensive walkthrough
 - **[Two Minute Papers AlphaFold3](https://www.youtube.com/watch?v=ezTnCmO6L0k)** — accessible overview
 - **[MIT 6.874 Computational Biology of Disease](https://mit6874.github.io/)** — AlphaFold guest lecture
@@ -811,7 +811,7 @@ None beyond arithmetic.
 - [jwohlwend/boltz](https://github.com/jwohlwend/boltz) — open-source AF3 in PyTorch
 
 ### Real-World Applications
-- **Drug design at Isomorphic Labs** — AF3 predicts small molecule binding poses for drug candidates
+- **Drug design at computational biology ML teams** — AF3 predicts small molecule binding poses for drug candidates
 - **CASP15 competition** — [predictioncenter.org](https://predictioncenter.org/casp15/) — AF3 won, evaluate your implementations against targets
 
 ---
@@ -914,7 +914,7 @@ None beyond arithmetic.
 - [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) — production chunked attention
 
 ### Real-World Applications
-- **Isomorphic Labs drug design** — AF3 at N=2048 protein length requires all optimizations here
+- **computational biology ML teams drug design** — AF3 at N=2048 protein length requires all optimizations here
 - **PLINDER benchmark** — 449K protein-ligand structures, requires CCD parsing at scale
 
 ---
@@ -947,7 +947,7 @@ None beyond arithmetic.
 - **[NVIDIA Deep Learning Performance Guide](https://docs.nvidia.com/deeplearning/performance/dl-performance-getting-started/index.html)** — gradient accumulation, AMP
 
 ### Real-World Applications
-- **Isomorphic Labs model retraining** — exact training config from AF3 paper to reproduce paper results
+- **computational biology ML teams model retraining** — exact training config from AF3 paper to reproduce paper results
 - **Fine-tuning for new biomolecules** — adapt the loss function when adding new molecule types
 
 ---
@@ -1205,7 +1205,7 @@ Boltz is an open-weight AF3 reimplementation:
 - **[MIT Boltz GitHub](https://github.com/jwohlwend/boltz)** — production code
 
 ### Real-World Applications
-- **Code review for PRs at Isomorphic/DeepMind** — you will be asked to review changes to these files
+- **Code review for PRs at computational biology ML teams/structural biology research labs** — you will be asked to review changes to these files
 - **Implementing new modules** — knowing the codebase structure lets you add new inputs/losses efficiently
 
 ---
@@ -1251,7 +1251,7 @@ Boltz is an open-weight AF3 reimplementation:
 - [opig.stats.ox.ac.uk/webapps/stcrdab](https://opig.stats.ox.ac.uk/webapps/stcrdab/) — TCR-pMHC database for capstone
 
 ### Real-World Applications
-- **Isomorphic Labs** — LoRA fine-tunes AF3 for specific molecular targets in drug campaigns
+- **computational biology ML teams** — LoRA fine-tunes AF3 for specific molecular targets in drug campaigns
 - **Protein engineering** — ΔΔG-guided directed evolution using this exact pipeline
 - **TCR-pMHC immunotherapy** — CDR3β design for cancer immunotherapy (this notebook's capstone)
 

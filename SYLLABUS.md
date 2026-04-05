@@ -11,7 +11,7 @@
 ## Course Description
 
 This curriculum teaches computational biology and machine learning at the level required for
-research or industry roles at companies like Isomorphic Labs, Genentech, Recursion, and Schrödinger.
+research or industry roles at companies like computational biology ML teams, Genentech, drug discovery companies, and Schrödinger.
 
 **Prerequisites:**
 - Python: functions, loops, list comprehensions, basic numpy
@@ -382,7 +382,7 @@ Attempt these without reference:
 
 ### After Week 18 (Full Curriculum Completion)
 You should be able to:
-- Pass a technical screen at Isomorphic Labs / DeepMind / Schrödinger
+- Pass a technical screen at computational biology ML teams / structural biology research labs / Schrödinger
 - Read any new protein ML paper and understand it within 3 hours
 - Implement any component from the AF3 paper from scratch
 - Design a ML pipeline for a new biological prediction task

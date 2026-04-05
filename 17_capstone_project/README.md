@@ -25,7 +25,7 @@ This module integrates every skill from the curriculum into a single production-
 | 0 | `00_end_to_end_pipeline.ipynb` | EGFR sequence validation → ESM2 embeddings → AF3 structure → deltadeltaG mutation scanning → bootstrap uncertainty → Bayesian optimization → clinical ranking → FastAPI deployment | ~12h |
 
 ## After This Module You Can
-- Build and present an end-to-end protein ML pipeline at Isomorphic Labs / DeepMind interview depth
+- Build and present an end-to-end protein ML pipeline at computational biology ML teams / structural biology research labs interview depth
 - Explain every component of the EGFR pipeline — why each module is there and what it contributes
 - Quantify prediction uncertainty and communicate it to both technical and clinical audiences
 - Design a Bayesian optimization loop that identifies the highest-value EGFR mutations to test experimentally
@@ -43,7 +43,7 @@ This module integrates every skill from the curriculum into a single production-
 This is the final module. You have completed the full curriculum.
 
 Recommended next steps:
-1. Apply to roles at Isomorphic Labs, Generate Biomedicines, Recursion, DeepMind
+1. Apply to roles at computational biology ML teams, drug discovery companies, drug discovery companies, structural biology research labs
 2. Extend the capstone with real ESM2 inference on Colab A100 or Kaggle GPU
 3. Read the primary papers: AlphaFold3 (Abramson et al. 2024), RFdiffusion (Watson et al. 2023), Boltz-1
 4. See `HOW_TO_LEARN_INDEPENDENTLY.md` Section 4 for the research reading strategy

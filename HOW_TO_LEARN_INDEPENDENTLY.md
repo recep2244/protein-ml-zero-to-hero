@@ -315,7 +315,7 @@ Before and after each module, score yourself 1-5 on these questions:
 
 **Score < 3 anywhere**: Revisit that module before advancing.
 **Score 3-4 everywhere**: You're ready for the fine-tuning capstone.
-**Score 4-5 on AF3 + Fine-tuning**: You're ready for a technical interview at Isomorphic Labs.
+**Score 4-5 on AF3 + Fine-tuning**: You're ready for a technical interview at computational biology ML teams.
 
 ---
 
@@ -341,7 +341,7 @@ Before and after each module, score yourself 1-5 on these questions:
 
 ## Part 10: Preparing for Technical Interviews
 
-### What Isomorphic Labs / DeepMind Interviewers Actually Test
+### What computational biology ML teams / structural biology research labs Interviewers Actually Test
 
 Based on public interview reports and the job descriptions:
 

@@ -10,7 +10,7 @@
 
 ## What Is This?
 
-This is a **complete, self-contained curriculum** for learning computational biology and structural ML — from your first line of Python to implementing AlphaFold3 components, fine-tuning OpenFold, and building a real drug discovery pipeline. It is designed for anyone who wants to work at the intersection of machine learning and biology, targeting roles at companies like Isomorphic Labs, Generate Biomedicines, and Recursion. By the end, you will have built a production-quality EGFR kinase pipeline and be ready to pass HackerRank ML assessments and technical interviews.
+This is a **complete, self-contained curriculum** for learning computational biology and structural ML — from your first line of Python to implementing AlphaFold3 components, fine-tuning OpenFold, and building a real drug discovery pipeline. It is designed for anyone who wants to work at the intersection of machine learning and biology, targeting roles at companies like computational biology ML teams, drug discovery companies, and drug discovery companies. By the end, you will have built a production-quality EGFR kinase pipeline and be ready to pass HackerRank ML assessments and technical interviews.
 
 ---
 
@@ -71,7 +71,7 @@ Choose the path that matches your goal:
 |------|------|------|---------|
 | 🟢 **Path A** | HackerRank Certification | 2 weeks | 00/03 → 00/04 → 00/05 → 08/01–08/05 |
 | 🔵 **Path B** | Bioinformatics & Rosalind | 3 weeks | 01/01–01/06 → 02/01–02/04 → 08 |
-| 🟡 **Path C** | Structural ML (Isomorphic Labs) | 4 weeks | 03 → 05 → 06 → 07/01–07/04 → 10 |
+| 🟡 **Path C** | Structural ML (computational biology ML teams) | 4 weeks | 03 → 05 → 06 → 07/01–07/04 → 10 |
 | 🔴 **Path D** | Full Curriculum | 10 weeks | Modules 00 → 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 → 13 → 14 → 15 → 16 → 17 |
 
 ---
@@ -114,7 +114,7 @@ Every notebook in this curriculum is built to the same 10-point quality standard
 5. **Debug exercises** — Intentionally broken code for you to diagnose and fix
 6. **Resources** — Curated papers, videos, and tutorials; beginner-friendly options marked
 7. **Interview Q&A** — 4–6 questions with full technical answers, calibrated to senior ML roles
-8. **Real-world context** — How this topic is used at Isomorphic Labs, Genentech, or in the clinic
+8. **Real-world context** — How this topic is used at computational biology ML teams, Genentech, or in the clinic
 9. **Mastery check** — Self-assessment checklist before moving on
 10. **Cross-module connections** — Explicit links to prerequisite and follow-on notebooks
 
@@ -138,9 +138,9 @@ Every notebook in this curriculum is built to the same 10-point quality standard
 
 This curriculum is directly targeted at the techniques and problem domains used by:
 
-- **Isomorphic Labs** (DeepMind spinout) — AlphaFold3, structure prediction, drug design
-- **Generate Biomedicines** — Generative protein design, diffusion models
-- **Recursion Pharmaceuticals** — High-throughput phenomics, ML-guided screening
+- **computational biology ML teams** (structural biology research labs spinout) — AlphaFold3, structure prediction, drug design
+- **drug discovery companies** — Generative protein design, diffusion models
+- **drug discovery companies** — High-throughput phenomics, ML-guided screening
 - **Eikon Therapeutics** — Single-molecule imaging, target ID with ML
 - **Relay Therapeutics** — Conformational dynamics, structure-based drug design
 

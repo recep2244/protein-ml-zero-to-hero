@@ -207,6 +207,6 @@ Or close the other Jupyter session first.
 ## Next Steps
 
 - Follow **Path A** (HackerRank Certification) in `CLAUDE.md` if your goal is assessment prep.
-- Follow **Path C** (Structural ML) if your goal is Isomorphic Labs / DeepMind interviews.
+- Follow **Path C** (Structural ML) if your goal is computational biology ML teams / structural biology research labs interviews.
 - See `STUDY_PLAN.md` for a week-by-week schedule.
 - See `CLOUD_SETUP.md` if you prefer to work entirely in Google Colab without any local installation.

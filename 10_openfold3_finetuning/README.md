@@ -1,5 +1,5 @@
 # Module 10 — OpenFold3 Fine-Tuning (Capstone)
-This module is where the curriculum converges — you navigate the OpenFold3 codebase, implement backbone rigid body math, and apply LoRA fine-tuning to predict mutation stability (deltadeltaG) and model TCR-pMHC interactions at Isomorphic Labs research depth.
+This module is where the curriculum converges — you navigate the OpenFold3 codebase, implement backbone rigid body math, and apply LoRA fine-tuning to predict mutation stability (deltadeltaG) and model TCR-pMHC interactions at computational biology ML teams research depth.
 
 ## What You'll Learn
 - Navigate a production-scale protein ML codebase (OpenFold3, 1M+ lines) using a structured map

@@ -1,6 +1,6 @@
 # Curriculum Rating — MIT/Stanford/Harvard Lecturer Assessment
 
-**Curriculum:** Bioinformatics + Structural Biology ML for Isomorphic Labs / AlphaFold3
+**Curriculum:** Bioinformatics + Structural Biology ML for computational biology ML teams / AlphaFold3
 **Assessed by:** Comprehensive audit of all 40 notebooks across 18 modules
 **Date:** 2026-04-05
 
@@ -8,7 +8,7 @@
 
 ## Overall Rating: **8.4 / 10**
 
-This is a professionally constructed curriculum. A student completing it will be genuinely competitive for ML engineer roles at Isomorphic Labs, DeepMind, and similar. The weakest areas (identified and now fixed) were thin implementations in diffusion and sequence models, missing TL;DR cells, and no capstone integration.
+This is a professionally constructed curriculum. A student completing it will be genuinely competitive for ML engineer roles at computational biology ML teams, structural biology research labs, and similar. The weakest areas (identified and now fixed) were thin implementations in diffusion and sequence models, missing TL;DR cells, and no capstone integration.
 
 ---
 
@@ -61,7 +61,7 @@ This is a professionally constructed curriculum. A student completing it will be
 - Every major notebook has 4-5 interview Q&A pairs.
 - Questions span: "explain to a non-expert", "debug this code", "design a system", "compare two approaches".
 - Difficulty correctly escalates: recall → understand → apply → analyze → design.
-- AlphaFold3 interview prep (Modules 07, 10) is Isomorphic-Labs–level.
+- AlphaFold3 interview prep (Modules 07, 10) is computational biology ML teams-Labs–level.
 
 ### Code Quality: **8/10**
 - Implementations are correct and instructive (not overcomplicated).
@@ -135,7 +135,7 @@ This is a professionally constructed curriculum. A student completing it will be
 - Software engineers transitioning to ML engineer roles at computational biology companies
 - ML engineers learning structural biology for the first time
 - PhD students wanting practical implementation skills to complement theory
-- Anyone preparing for Isomorphic Labs, DeepMind, Recursion, Generate Biomedicines ML roles
+- Anyone preparing for computational biology ML teams, structural biology research labs, drug discovery companies, drug discovery companies ML roles
 
 **Requires supplementing with:**
 - Wet lab biology intuition (this curriculum is computation-only — pair with a biology podcast like "The Bioinformatics Chat")
