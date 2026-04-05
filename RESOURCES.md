@@ -1590,7 +1590,7 @@ None beyond high-school algebra; this notebook is the bridge into the later ML m
 
 ---
 
-*Generated 2026-04-02. Resources cover free textbooks, MIT/Stanford/Harvard OCW courses, Kaggle competitions, HuggingFace models/datasets, and production GitHub repositories relevant to each notebook topic.*
+*Generated 2026-04-02. Resources cover free textbooks, university OCW courses, Kaggle competitions, HuggingFace models/datasets, and production GitHub repositories relevant to each notebook topic.*
 
 ---
 

@@ -110,7 +110,7 @@ hackerrank/
 ├── RESOURCES.md           ← All learning resources (books, videos, datasets)
 ├── STUDY_PLAN.md          ← Week-by-week study schedule
 ├── SYLLABUS.md            ← University-quality syllabus with weekly objectives + assessments
-├── HOW_TO_LEARN_INDEPENDENTLY.md ← MIT/Stanford/Harvard independent learner guide
+├── HOW_TO_LEARN_INDEPENDENTLY.md ← Independent learner guide
 ├── CLOUD_SETUP.md         ← Free GPU setup: Colab, Kaggle, Lightning AI, Vast.ai
 ├── CURRICULUM_RATING.md   ← Lecturer assessment: module-by-module ratings and gaps
 ├── BEGINNER_ROADMAP.md    ← Zero-background 10-week plan with daily targets

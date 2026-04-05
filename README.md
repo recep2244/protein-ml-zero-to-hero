@@ -126,7 +126,7 @@ Every notebook in this curriculum is built to the same 10-point quality standard
 |----------|---------|
 | [`ZERO_TO_HERO.md`](ZERO_TO_HERO.md) | Complete free learning path from absolute beginner to research level (6–18 months) |
 | [`SYLLABUS.md`](SYLLABUS.md) | University-quality syllabus with weekly objectives and assessments |
-| [`HOW_TO_LEARN_INDEPENDENTLY.md`](HOW_TO_LEARN_INDEPENDENTLY.md) | MIT/Stanford/Harvard independent learner guide |
+| [`HOW_TO_LEARN_INDEPENDENTLY.md`](HOW_TO_LEARN_INDEPENDENTLY.md) | Independent learner guide |
 | [`BEGINNER_ROADMAP.md`](BEGINNER_ROADMAP.md) | Step-by-step onboarding for complete beginners |
 | [`GLOSSARY.md`](GLOSSARY.md) | Plain-English definitions of every technical term used in the curriculum |
 | [`QUICK_START.md`](QUICK_START.md) | Get your first notebook running in under 10 minutes |

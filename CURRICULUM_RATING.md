@@ -1,4 +1,4 @@
-# Curriculum Rating — MIT/Stanford/Harvard Lecturer Assessment
+# Curriculum Rating — Lecturer Assessment
 
 **Curriculum:** Bioinformatics + Structural Biology ML for computational biology ML teams / AlphaFold3
 **Assessed by:** Comprehensive audit of all 40 notebooks across 18 modules
@@ -115,7 +115,7 @@ This is a professionally constructed curriculum. A student completing it will be
 
 10. **`SYLLABUS.md`** — Created. 18-week structured course, 5 units, checkpoint assessments, supplementary theory/systems/drug-discovery tracks.
 
-11. **`RESOURCES.md`** — Added MIT/Stanford/Harvard course index at top covering all 18 topic areas.
+11. **`RESOURCES.md`** — Added university course index at top covering all 18 topic areas.
 
 ---
 

@@ -108,7 +108,7 @@ Is X a paper you can't understand?
 
 ## Part 3: How to Read a Research Paper
 
-### The Harvard Medical School Method (adapted for ML papers)
+### How to Read a Research Paper (3-Pass Method)
 
 **Pass 1 — 5 minutes:**
 1. Read the title. Write down what you *predict* the paper will show.
