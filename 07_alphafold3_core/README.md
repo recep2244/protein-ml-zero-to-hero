@@ -28,6 +28,7 @@ This module is the centerpiece of the curriculum — a zero-to-hero walkthrough 
 | 3 | `03_af3_evaluation.ipynb` | LDDT, TM-score, GDT-TS, pLDDT, PAE, DockQ, evaluation benchmarks | ~4h |
 | 4 | `04_af3_fullscale_and_ccd.ipynb` | Full-scale inference, CCD ligand featurization, multi-chain assemblies | ~5h |
 | 5 | `05_af3_training_loop.ipynb` | Full AF3 training loop, mixed precision, gradient checkpointing, EMA, curriculum sampling | ~7h |
+| 6 | `06_af3_diffusion_deep_dive.ipynb` | AF3 noise schedule (σ(t)=t), trunk-conditioned denoising, self-conditioning, all-atom atom37, loss weighting (λ=1/σ²), all 5 confidence heads (pLDDT/PAE/pDE/pTM/ipTM), PDB clustering anti-leakage | ~6h |
 
 ## After This Module You Can
 - Explain every major component of AlphaFold3's architecture in a technical interview
@@ -43,9 +44,12 @@ This module is the centerpiece of the curriculum — a zero-to-hero walkthrough 
 - **pLDDT**: Per-residue confidence metric (0–100) predicted by AF3; residues above 90 are highly confident, below 50 are likely disordered.
 - **PAE (Predicted Aligned Error)**: Matrix of expected position errors when aligning on one residue; low off-diagonal values indicate confident inter-domain or inter-chain predictions.
 - **Diffusion module**: Replaces AF2's recycled structure module with an iterative denoising process that generates all-atom coordinates from noisy samples.
+- **AF3 noise schedule**: Variance-exploding schedule xₜ = x₀ + σ(t)·ε where σ(t)=t, distinct from DDPM's signal-shrinking schedule; enables stable all-atom denoising.
+- **pDE (Predicted Distance Error)**: 5th AF3 confidence metric — alignment-free predicted error on inter-residue distances; complements PAE for non-sequential assemblies.
+- **PDB clustering**: MMseqs2 at 40% sequence identity; train/val/test splits are made at cluster level (not sequence level) to prevent data leakage from homologous structures.
 
 ## Next Module
 → [Module 08 — Practical Problems](../08_practical_problems/README.md)
 
 ## Difficulty: ⭐⭐⭐⭐⭐ (1–5 stars)
-## Estimated Time: 32–40 hours
+## Estimated Time: 38–46 hours

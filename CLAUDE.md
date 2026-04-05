@@ -5,7 +5,7 @@ This file helps Claude Code, GitHub Copilot, and Codex understand the curriculum
 ## Project Overview
 
 **Goal:** Master bioinformatics + structural biology ML for computational biology ML teams / structural biology research labs-level roles
-**Structure:** 43 Jupyter notebooks across 18 modules
+**Structure:** 56 Jupyter notebooks across 18 modules
 **Target:** HackerRank ML assessments + technical interviews
 **New to the field?** See `ZERO_TO_HERO.md` for the complete free learning path from absolute beginner to research level (6–18 months)
 
@@ -129,7 +129,7 @@ hackerrank/
 ├── 04_ml_bioinformatics/                ← 1 notebook
 ├── 05_deep_learning_finetuning/ ← 1 notebook
 ├── 06_structural_ml_gnns/ ← 2 notebooks
-├── 07_alphafold3_core/    ← 6 notebooks (incl. zero-to-hero + training loop)
+├── 07_alphafold3_core/    ← 7 notebooks (incl. zero-to-hero, training loop + diffusion deep dive)
 ├── 08_practical_problems/ ← 5 notebooks
 ├── 09_ml_teaching_essentials/ ← 1 notebook
 ├── 10_openfold3_finetuning/ ← 2 notebooks (code walkthrough + capstone)
