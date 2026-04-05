@@ -1,0 +1,151 @@
+name: Validate Notebooks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate all notebooks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install validation dependencies
+        run: |
+          pip install --upgrade pip
+          pip install nbformat nbconvert jupyter
+
+      - name: Validate notebook JSON
+        id: json_check
+        run: |
+          python - <<'EOF'
+          import glob
+          import json
+          import sys
+
+          notebooks = sorted(glob.glob("**/*.ipynb", recursive=True))
+          if not notebooks:
+              print("No notebooks found.")
+              sys.exit(0)
+
+          failed = []
+          for path in notebooks:
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      json.load(f)
+                  print(f"  OK  {path}")
+              except json.JSONDecodeError as e:
+                  print(f"FAIL  {path}  -->  {e}")
+                  failed.append(path)
+
+          if failed:
+              print(f"\n{len(failed)} notebook(s) failed JSON validation:")
+              for p in failed:
+                  print(f"  - {p}")
+              sys.exit(1)
+          else:
+              print(f"\nAll {len(notebooks)} notebooks are valid JSON.")
+          EOF
+
+      - name: Validate notebook format with nbformat
+        id: nbformat_check
+        run: |
+          python - <<'EOF'
+          import glob
+          import sys
+          import nbformat
+
+          notebooks = sorted(glob.glob("**/*.ipynb", recursive=True))
+          failed = []
+
+          for path in notebooks:
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      nb = nbformat.read(f, as_version=4)
+                  nbformat.validate(nb)
+                  print(f"  OK  {path}")
+              except nbformat.ValidationError as e:
+                  print(f"FAIL  {path}  -->  {e}")
+                  failed.append(path)
+              except Exception as e:
+                  print(f"FAIL  {path}  -->  {e}")
+                  failed.append(path)
+
+          if failed:
+              print(f"\n{len(failed)} notebook(s) failed nbformat validation:")
+              for p in failed:
+                  print(f"  - {p}")
+              sys.exit(1)
+          else:
+              print(f"\nAll {len(notebooks)} notebooks passed nbformat validation.")
+          EOF
+
+      - name: Check all notebooks have a TL;DR cell
+        id: tldr_check
+        run: |
+          python - <<'EOF'
+          import glob
+          import json
+          import sys
+
+          notebooks = sorted(glob.glob("**/*.ipynb", recursive=True))
+          missing_tldr = []
+
+          for path in notebooks:
+              with open(path, "r", encoding="utf-8") as f:
+                  nb = json.load(f)
+
+              cells = nb.get("cells", [])
+              if not cells:
+                  print(f"WARN  {path}  -->  notebook has no cells")
+                  missing_tldr.append(path)
+                  continue
+
+              # Check the first cell for TL;DR content (case-insensitive)
+              first_cell_source = "".join(cells[0].get("source", []))
+              if "tl;dr" in first_cell_source.lower() or "tldr" in first_cell_source.lower():
+                  print(f"  OK  {path}")
+              else:
+                  # Also accept if any of the first 3 cells contains TL;DR
+                  found = False
+                  for cell in cells[:3]:
+                      src = "".join(cell.get("source", []))
+                      if "tl;dr" in src.lower() or "tldr" in src.lower():
+                          found = True
+                          break
+                  if found:
+                      print(f"  OK  {path}  (TL;DR found in first 3 cells)")
+                  else:
+                      print(f"WARN  {path}  -->  no TL;DR cell found in first 3 cells")
+                      missing_tldr.append(path)
+
+          if missing_tldr:
+              print(f"\n{len(missing_tldr)} notebook(s) are missing a TL;DR cell:")
+              for p in missing_tldr:
+                  print(f"  - {p}")
+              # Treat as a warning, not a hard failure, to allow gradual adoption
+              print("\nNote: TL;DR cells are required by the curriculum style guide.")
+              print("Please add a TL;DR as the first Markdown cell in these notebooks.")
+              # Exit 0 so this is a warning, not a blocking failure during ramp-up
+              sys.exit(0)
+          else:
+              print(f"\nAll {len(notebooks)} notebooks have a TL;DR cell.")
+          EOF
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "Validation complete. Check the steps above for details."
+          echo "Notebooks validated: $(find . -name '*.ipynb' | wc -l)"
