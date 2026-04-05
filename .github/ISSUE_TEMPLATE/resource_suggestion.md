@@ -35,7 +35,7 @@ Be specific: does it explain a concept more clearly? Cover a gap? Provide a work
 
 ## Which module or notebook should it go in?
 
-<!-- Look at the module table in CLAUDE.md and pick the best fit.
+<!-- Look at the module table in README.md and pick the best fit.
 Example: "Module 07 — AlphaFold3 Core, specifically 07/02 (Pairformer)" -->
 
 **Suggested location:**
