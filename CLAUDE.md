@@ -5,7 +5,7 @@ This file helps Claude Code, GitHub Copilot, and Codex understand the curriculum
 ## Project Overview
 
 **Goal:** Master bioinformatics + structural biology ML for computational biology ML teams / structural biology research labs-level roles
-**Structure:** 56 Jupyter notebooks across 18 modules
+**Structure:** 57 Jupyter notebooks across 18 modules
 **Target:** HackerRank ML assessments + technical interviews
 **New to the field?** See `ZERO_TO_HERO.md` for the complete free learning path from absolute beginner to research level (6–18 months)
 

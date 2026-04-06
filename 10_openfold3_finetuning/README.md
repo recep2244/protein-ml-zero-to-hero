@@ -45,3 +45,5 @@ This module is where the curriculum converges — you navigate the OpenFold3 cod
 
 ## Difficulty: ⭐⭐⭐⭐⭐ (1–5 stars)
 ## Estimated Time: 14–18 hours
+
+| 2 | `02_boltz2_finetuning.ipynb` | Boltz-2 architecture internals, LoRA fine-tuning, ΔΔG prediction head, recycling, confidence heads, benchmarking vs AF3, developer tips | ~10h |
