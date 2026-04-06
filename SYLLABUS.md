@@ -416,3 +416,32 @@ When you need synchronous help:
 - [MIT 6.874 Computational Biology of Disease](https://mit6874.github.io/)
 - [EMBL-EBI Drug Discovery Training](https://www.ebi.ac.uk/training/)
 - [ChEMBL database tutorials](https://chembl.gitbook.io/chembl-interface-documentation/)
+
+---
+
+## Course Learning Outcomes
+
+Upon successful completion of this curriculum, students will be able to:
+
+1. **Implement** sequence alignment algorithms (Needleman-Wunsch, Smith-Waterman) and explain their computational complexity
+2. **Build** protein graph representations and train graph neural networks for structure-based property prediction
+3. **Explain** every major component of AlphaFold3 — from MSA input to diffusion-based coordinate generation — at interview depth
+4. **Apply** LoRA fine-tuning to adapt a pre-trained protein language model to a new prediction task with <500 labelled examples
+5. **Design** a complete ML pipeline from raw protein sequence to clinically interpretable mutation effect predictions
+6. **Quantify** prediction uncertainty using Bayesian methods (MC Dropout, conformal prediction, Gaussian processes)
+7. **Deploy** a trained model as a production API with experiment tracking, input validation, and drift monitoring
+8. **Evaluate** model performance using domain-appropriate metrics (FAPE, pLDDT, TM-score, Pearson r, calibration)
+9. **Read and critically assess** primary research papers in computational structural biology
+10. **Communicate** technical results to both technical and non-technical audiences with publication-quality visualizations
+
+## Academic Integrity Policy
+
+This is an open-source self-study curriculum. When using this material:
+
+- **Personal learning:** Use freely. Run all code, modify it, break it, fix it — that is how you learn.
+- **Job applications / portfolios:** You may include completed notebooks in your portfolio. Credit this curriculum with a link to the GitHub repository.
+- **Teaching / courses:** You may adapt this material for your own teaching under the MIT License. Attribution appreciated.
+- **Publications:** If this curriculum contributed to a research publication, cite the repository.
+- **Sharing solutions:** Do not post solutions to the exercises publicly (e.g. on Stack Overflow) — this undermines the learning experience for others.
+
+The exercises are designed so that the learning happens in the struggle. Looking at the solution before attempting the problem yourself defeats the purpose.
